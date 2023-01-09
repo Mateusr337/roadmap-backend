@@ -18,3 +18,12 @@
 - Then, the internet reaches the access providers, who contract the connection with the backbones and distribute it to the service providers.
 - Service providers, in turn, distribute the connection to end users, for example, via fiber optics.
 - Finally, the internet connection reaches end users' devices.
+
+## What is the Hypertext Transfer Protocol (HTTP)?
+
+The HTTP is the foundation of the World Wide Web, and is used to load webpages using hypertext links. 
+
+**HTTP request include**: HTTP version type, a headers, an URL, an optional body, method (POST, GET etc.) 
+
+**Extra**: The HTTP protocol is not very security, so we use HTTPS protocol.
+That is the form of obtain more security, because is the join between HTTP protocol and SSL security protocol.
