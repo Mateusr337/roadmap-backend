@@ -27,3 +27,20 @@ The HTTP is the foundation of the World Wide Web, and is used to load webpages u
 
 **Extra**: The HTTP protocol is not very security, so we use HTTPS protocol.
 That is the form of obtain more security, because is the join between HTTP protocol and SSL security protocol.
+## Browser and how they work?
+
+Is the application that can insert URL pages address and access this one.
+
+**Example**: Google Chrome, Safari, Opera, Firefox e Edge
+
+**How is it work?**: The browser sends request on the internet with HTTP protocol and get data page, commonly the request pages return HTML data of the page or site. Each application have a unique URL (Unique Recourse Localization).
+
+**The browser's high level structure:**
+
+- The user interface ⇒ The UI interface.
+- The browser engine ⇒ The engineer interactions among user and rendering engineer.
+- The rendering engine ⇒ The presenter of content requested response.
+- Networking ⇒ The networker and it’s platform-independent interface.
+- UI backend ⇒ used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath, it uses operating system user interface methods.
+- JavaScript interpreter ⇒ Used to parse and execute JavaScript code.
+- Data storage ⇒ The Persistence layer. Such as local storage and cookies, Browser needs to them.
