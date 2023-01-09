@@ -79,3 +79,7 @@ It is the friendly human name and represent an IP address.
 ## **What is the difference between a domain name and a URL?**
 
 A uniform resource locator (URL), sometimes called a web address, contains the domain name of a site as well as other information, including the protocol and the path. For example, in the URL ‘https://cloudflare.com/learning/’, ‘cloudflare.com’ is the domain name, while ‘https://www.cloudflare.com/learning/ssl/what-is-https’ is the protocol and ‘/learning/’ is the path to a specific page on the website.
+
+### What is hosting?
+
+Hosting is a place into the server reserved for you to allocate your website. Is a security place in another enterprise.
