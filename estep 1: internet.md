@@ -58,3 +58,24 @@ The DNS is as book that users search an application (IP) starting the domain nam
 - The TDL server response, the IP server with domain "[anything.com](http://anything.com/)"
 - The recursive resolver sends a request to names server
 - The resolver response web user request with the IP address the initial domain
+
+## What is a domain name?
+
+It is the friendly human name and represent an IP address.
+
+**Overview (steps):** 
+
+- user sends to request to browser
+- browser send DNS request with domain name (friendly human name)
+- DNS response IP page address
+- Redirect to user’s requested page
+
+**Example** ⇒ **“one.two.com”**: one (SLD - label 2), two (SLD - label 1), com (TDL).
+
+**TDL**: This part can inform some usability of this resource, for example ".gov" only government pages can use this one.
+
+**SLD/ labels**: can have many subdomains, but is not necessary, is required just one main Domain.
+
+## **What is the difference between a domain name and a URL?**
+
+A uniform resource locator (URL), sometimes called a web address, contains the domain name of a site as well as other information, including the protocol and the path. For example, in the URL ‘https://cloudflare.com/learning/’, ‘cloudflare.com’ is the domain name, while ‘https://www.cloudflare.com/learning/ssl/what-is-https’ is the protocol and ‘/learning/’ is the path to a specific page on the website.
