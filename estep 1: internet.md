@@ -44,3 +44,17 @@ Is the application that can insert URL pages address and access this one.
 - UI backend ⇒ used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath, it uses operating system user interface methods.
 - JavaScript interpreter ⇒ Used to parse and execute JavaScript code.
 - Data storage ⇒ The Persistence layer. Such as local storage and cookies, Browser needs to them.
+
+## What is the DNS and how they work?
+
+The DNS is as book that users search an application (IP) starting the domain name.
+
+**Overview (steps):**
+
+- request URL exempe.com
+- resolver DNS received and redirect request to root name server DNS
+- resolver receive response with address of the DNS server TLD as the ".com"
+- send request to TLD
+- The TDL server response, the IP server with domain "[anything.com](http://anything.com/)"
+- The recursive resolver sends a request to names server
+- The resolver response web user request with the IP address the initial domain
