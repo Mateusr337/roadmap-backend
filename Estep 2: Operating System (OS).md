@@ -1,6 +1,6 @@
 # Operational System (OS)
 
-### What is an OS**?**
+### What is an OS?
 
 An operating system is a program that acts as an interface between the user and the computer hardware and controls the execution of all kinds of programs.
 
