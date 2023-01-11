@@ -1,12 +1,12 @@
 # Operational System (OS)
 
-### What is an OS?
+## What is an OS?
 
 An operating system is a program that acts as an interface between the user and the computer hardware and controls the execution of all kinds of programs.
 
 **Example** Linux, Windows, AXIS etc.
 
-### Memory Management
+## Memory Management
 
 Memory management is a method in the operating system to manage operations between main memory and disk during process execution.
 
@@ -19,7 +19,7 @@ Memory management is a method in the operating system to manage operations betwe
 - Swapping in ⇒ allocated in main memory
 - Swapping out ⇒ withdraw of main memory
 
-### **Inter Process Communication (IPC)**
+## **Inter Process Communication (IPC)**
 
 Inter-process communication (IPC) is a mechanism that allows processes to communicate with each other and synchronize their actions
 
