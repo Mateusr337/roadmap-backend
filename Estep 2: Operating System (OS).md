@@ -32,3 +32,16 @@ Inter-process communication (IPC) is a mechanism that allows processes to commun
 
 - **Shared Memory** ⇒ ****Some processes will have access from the same memory.
 - **Message passing** ⇒ this can be by link (indirect or direct) or exchanging messages:
+
+## I/O Management
+
+One of the important jobs of an Operating System is to manage various I/O devices including mouse, keyboards, touchpad, disk drives, display adapters, USB devices, Bit-mapped screen, LED, Analog-to-digital converter, On/off switch, network connections, audio I/O, printers etc.
+
+An I/O system is required to take an application I/O request and send it to the physical device, then take whatever response comes back from the device and send it to the application. I/O devices can be divided into two categories:
+
+- **Block devices** − A block device is one with which the driver communicates by sending entire blocks of data. For example, Hard disks, USB cameras, Disk-On-Key etc.
+- **Character devices** − A character device is one with which the driver communicates by sending and receiving single characters (bytes, octets). For example, serial ports, parallel ports, sounds cards etc
+
+**Device Controllers**
+
+Device drivers are software modules that can be plugged into an OS to handle a particular device. Operating System takes help from device drivers to handle all I/O devices.
