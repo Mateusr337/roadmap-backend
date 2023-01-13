@@ -45,3 +45,19 @@ An I/O system is required to take an application I/O request and send it to the 
 **Device Controllers**
 
 Device drivers are software modules that can be plugged into an OS to handle a particular device. Operating System takes help from device drivers to handle all I/O devices.
+
+## **What is computer networking?**
+
+Computer networking refers to interconnected computing devices that can exchange data and share resources with each other. These networked devices use a system of rules, called communications protocols, to transmit information over physical or wireless technologies.
+
+## **What is network topology?**
+
+The arrangement of nodes and links is called network topology. They can be configured in different ways to get different outcomes. Some types of network topologies are:
+
+**Bus topology** ⇒ Each node is linked to one other node only. Data transmission over the network connections occurs in one direction.
+
+**Ring topology** ⇒ Each node is linked to two other nodes, forming a ring. Data can flow bi-directionally. However, single node failure can bring down the entire network.
+
+**Star topology** ⇒ A central server node is linked to multiple client network devices. This topology performs better as data doesn’t have to go through each node. It is also more reliable.
+
+**Mesh topology** ⇒ Every node is connected to many other nodes. In a full mesh topology, every node is connected to every other node in the network.
